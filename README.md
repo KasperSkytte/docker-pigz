@@ -6,7 +6,7 @@ Tiny (only 6.7 MB) Alpine linux (v3.9) image with pigz (2.4-r0) for multithreade
 Mount a folder or file, pass whatever options to pigz
 
 ```
-$ docker run --rm -it -v ${PWD}:/wd kasperskytte/docker-pigz -h
+$ docker run --rm -it -v ${PWD}:/wd ghcr.io/kasperskytte/docker-pigz:master -h
 Usage: pigz [options] [files ...]
   will compress files in place, adding the suffix '.gz'. If no files are
   specified, stdin will be compressed to stdout. pigz does what gzip does,
